@@ -3,9 +3,7 @@
 class Prime
   # This was a complicated challenge that actually yielded some interesting results.
 
-  # Firstly, the below function is a modified sieve that seems to
-  # perform significantly better than a sieve like the one below.
-
+  # This commented function below is significantly more "ruby", however it's performance is very poor (my code runs much better)
   # def self.nth nth
   #   up_to = nth * (Math.log(nth) + 2)
   #   primes = (2..up_to).to_a
